@@ -1,4 +1,4 @@
-FROM       adgico/teamcity-9.1-agent
+FROM       adgico/teamcity-9.x.y-agent
 MAINTAINER Byran Wills-Heath <byran@adgico.co.uk>
 
 RUN apt-get -y install software-properties-common
@@ -8,4 +8,3 @@ RUN apt-get update
 RUN apt-get install -y build-essential
 
 RUN apt-get install -y g++-4.9
-
